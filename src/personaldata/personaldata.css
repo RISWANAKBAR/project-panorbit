@@ -1,0 +1,298 @@
+/* NX = not expanded */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Fredoka+One&family=Gentium+Book+Plus&family=Poppins&family=Roboto&family=Rubik&family=Work+Sans:wght@500&display=swap');
+
+
+.body2 {
+    width: 100%;
+    margin: auto;
+    margin-left: 5%;
+    margin-top: 2%;
+  
+
+}
+/* .head {
+
+    margin: auto;
+    width: 85%;
+    height: 100px;
+  
+    font-size: 25px;
+    margin-left: 4%;
+  
+
+}
+
+
+.rf {
+    position: relative;
+    width: 100%;
+
+    height: 80px;
+}
+
+.heading {
+    position: absolute;
+    left: 0;
+    width: 100px;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.profilename {
+    position: absolute;
+    right: 0;
+    width: auto;
+    margin-right: 6%;
+
+    margin-top: 3%;
+    font-size: 13px;
+
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.profilename img {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+    margin-top: -3%;
+    margin-right: 5PX;
+
+
+}
+
+.profilename p {
+    float: left;
+    
+
+}
+
+
+.head .dif {
+
+    width: 95%;
+    border: 0.5px solid rgba(128, 128, 128, 0.333);
+    margin: auto;
+    margin-top: -0.5rem;
+} */
+
+
+
+.part2 {
+    width: 45%;
+    margin-left: -3%;
+    float: left;
+
+
+
+
+}
+
+.profilepic img {
+    vertical-align: middle;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+
+
+}
+
+.details {
+    margin-left: 16%;
+}
+
+.part2 .dif {
+
+    width: 55%;
+    border: 0.5px solid rgba(128, 128, 128, 0.333);
+    margin: auto;
+}
+
+.details table {
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.details td {
+    padding: 2px;
+    font-size: 10px;
+    color: rgb(158, 156, 156);
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    letter-spacing: 2px;
+}
+
+.details .bold1 {
+    font-weight: bold;
+    text-align: left;
+    font-size: 12px;
+    color: rgb(98, 98, 98);
+
+}
+
+.details1 p {
+
+    text-align: center;
+}
+
+.details1 table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.details1 td {
+    padding: 2px;
+    font-size: 10px;
+    color: rgb(158, 156, 156);
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    letter-spacing: 2px;
+}
+
+.details1 .bold1 {
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(98, 98, 98);
+    text-align: left;
+
+
+}
+
+.details1 {
+    margin-left: 16%;
+}
+
+.dif1 {
+    height: 510px;
+    width: 0;
+    border: 0.5px solid rgba(128, 128, 128, 0.333);
+    margin: auto;
+    float: left;
+    margin-left: 2%;
+
+
+
+}
+
+.part3 {
+    width: 50%;
+    margin-left: 3%;
+    float: left;
+
+
+
+}
+
+.details2 table {
+    margin-left: 5%;
+
+
+}
+
+.details2 td {
+    padding: 2px;
+    font-size: 10px;
+    color: rgb(158, 156, 156);
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    letter-spacing: 2px;
+}
+
+.details2 .bold1 {
+    font-weight: bold;
+    width: 70%;
+    border-radius: 6px;
+    font-size: 12px;
+    color: rgb(98, 98, 98);
+    text-align: left;
+}
+
+.map {
+    margin-left: 5%;
+    margin-top: 3%;
+}
+#mapdata{
+    text-align: right;
+    margin-right: 10%;
+    cursor: pointer;
+    font-size: 13px;
+
+}
+@media only screen and (max-width: 750px) {
+    .body2{
+        margin-left: 1%;
+    }
+ 
+   
+    .part2 {
+
+        width: 100%;
+    
+    }
+    .details{
+        margin-left: 12%;
+    }
+
+    .part3 {
+        width: 100%;
+        margin-top: 2%;
+
+    }
+
+    .details2 table {
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+    .details2 {
+        margin-left: 1%;
+
+
+    }
+    
+
+    .part3 p {
+
+        text-align: center;
+    }
+
+    .dif1 {
+        width: 80%;
+        height: 0;
+        border: 0.5px solid rgba(128, 128, 128, 0.333);
+        margin: auto;
+        margin-left: 10%;
+        margin-top: 4%;
+
+
+    }
+    .head{
+        width: 100%;
+        margin-top:-5%;
+    }
+
+
+
+}
+@media only screen and (max-width: 1000px){
+	.head{
+		width: 90%;
+        margin-left:2%;
+        margin-top: -3%;
+	}
+  
+
+
+}

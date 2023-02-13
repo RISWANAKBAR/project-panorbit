@@ -1,0 +1,425 @@
+.head {
+
+    margin: auto;
+    width: 70%;
+    height: 100px;
+ 
+    font-size: 25px;
+    margin-left: 22%;
+  
+
+}
+
+
+.rf {
+    position: relative;
+    width: 100%;
+
+    height: 80px;
+}
+
+.heading {
+    position: absolute;
+    left: 0;
+    width: 100px;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.profilename {
+    position: absolute;
+    right: 0;
+    width: auto;
+    margin-right: 6%;
+
+    margin-top: 3%;
+    font-size: 13px;
+
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+.profilename img {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+    margin-top: -3%;
+    margin-right: 5PX;
+
+
+}
+
+.profilename p {
+    float: left;
+    /* margin-right: 5px; */
+
+}
+
+
+
+.head .dif {
+
+    width: 95%;
+    border: 0.5px solid rgba(128, 128, 128, 0.333);
+    margin: auto;
+    margin-top: -0.5rem;
+}
+.contentArea {
+    background-color: var(--light);
+    width: 100%;
+    min-height: 92%;
+    height: auto;
+    overflow: hidden;
+}
+.popup{
+    width: 280px;
+    height: 400px;
+    background-color:white;
+    position: fixed;
+    right: 8%;
+    /* margin-right: 2%; */
+   margin-top:-2%;
+   border-radius: 12px;
+   overflow-y: scroll;
+  
+    
+
+
+}
+.popup1 img{
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10%;
+
+}
+.popup p{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+.none-popup{
+    display: none;
+}
+.namestyle1{
+    display: inline-flex;
+    width: 100%;
+    margin-left: 17%;
+    margin-top:-3%;
+    font-size: 6px;
+    height: 30px;
+
+}
+.nm{
+    margin-top: -3%;
+    color: grey;
+}
+.namestyle1 .img1{
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+
+}
+.namestyle1 p{
+    margin-top: 11%;
+   
+}
+.dif4{
+    width: 55%;
+    border: 0.5px solid rgba(205, 205, 205, 0.333);
+    margin: auto;
+
+
+}
+.popup::-webkit-scrollbar {
+    display: none;
+}
+.bttn{
+    background-color: red;
+    border-radius: 12px;
+    text-align: center;
+    width: 100px;
+    margin-left: 30%;
+    position: sticky;
+    bottom: 0;
+    height: 30px;
+   
+ 
+   
+    
+}
+.bttn a{
+    padding-top: -5px;
+    color: white;
+}
+.chathead{
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    margin-left: 20px;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    border-radius: 12px;
+    word-spacing: 2px;
+   
+}
+.chatbox{
+    height: 400px;
+   background-color: whitesmoke;
+    width: 200px;
+    margin-left: 20px;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    border-radius: 12px;
+    overflow-y: scroll;
+    border: solid 1px blue;
+}
+.chatbox::-webkit-scrollbar {
+    display: none;
+}
+
+.chathead  p{
+
+    text-align: left;
+    margin-top: 7%;
+    margin-left: 15px;
+    color: white;
+    display: inline-flex;
+    
+  
+}
+.chatbtn{
+    height: 50px;
+    background-color: blue;
+    word-spacing: 2px;
+}
+.chatbtn p{
+    text-align: left;
+    padding-top: 13px;
+
+    
+
+    margin-left: 15px;
+    color: white;
+
+
+    
+}
+.pp{
+
+    text-align: end;
+    position: fixed;
+    right: 0;
+}
+.chatbtn{
+    position: sticky;
+    top: 0;
+    display: inline-flex;
+    width: 100%;
+    
+
+}
+.chatlist{
+    margin-left: -16px;
+
+}
+
+.namestyle2{
+    display: inline-flex;
+    width: 100%;
+    margin-left: 12%;
+    margin-top:3%;
+    font-size: 10px;
+    height: 30px;
+
+}
+.namestyle2 p{
+    margin-top: 4%;
+}
+.stick{
+    position: sticky;
+    top: 0;
+    background-color: whitesmoke;
+
+}
+.btt{
+    position: sticky;
+    bottom: 0;
+    background-color: whitesmoke;
+    height: 40px;
+    padding-top: 5px;
+
+}
+#active-icon {
+
+    color: green;
+    font-size: 10px;
+    float: right;
+    margin-top: 1.4rem;
+    margin-right: 2rem;
+}
+.css-i4bv87-MuiSvgIcon-root {
+
+    margin-left: 29px !important;
+}
+.chatpage{
+    height: 300px;
+    background-color: whitesmoke;
+     width: 200px;
+     margin-left: 20px;
+     position: fixed;
+     right: 233px;
+     bottom: 20px;
+     border-radius: 12px;
+     overflow-y: scroll;
+     border: solid 1px blue;
+}
+.chatpagehead{
+    height: 50px;
+    background-color: blue;
+    word-spacing: 2px;
+    font-size: 10px;
+    display: inline-flex;
+    width: 100%;
+}
+.chatpage::-webkit-scrollbar {
+    display: none;
+}
+.chatpagehead p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: white;
+
+
+}
+
+
+
+
+
+#mySidebar{
+	background-color: rgb(8, 69, 200);
+	width: 200px;
+	height: 89vh;
+	
+	color: var(--light);
+
+	transition: 0.8s;
+	float: left;
+    margin-top: 3%;
+    margin-left: 4%;
+    border-radius: 12px;
+
+	
+
+}
+#mySidebar li{
+	height: 57px;
+	display: flex;
+	
+	font-size: 15px;
+
+
+	border-radius: 12px;
+	margin-left: 8%;
+	margin-top: 4%;
+
+}
+
+#mySidebar a{
+	color:#ffff;
+	text-decoration: none;
+	font-size: 16px;
+	letter-spacing: 2px;
+
+
+}
+.close{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+
+.navmenu {
+	grid-template-rows: repeat(7, 1fr);
+	margin-top: 200px;
+}
+#navElement {
+    color: var(--textcolorWhite);
+    font-size: 16px;
+    cursor: pointer;
+}
+#navElement2 {
+    font-size: 19px;
+    font-weight: bold;
+    color: var(--light);
+    cursor: pointer;
+}
+.dif3{
+	width: 60%;
+    border: 0.5px solid rgba(255, 255, 255, 0.505);
+    margin: auto;
+	margin-top: -10%;
+    margin-left: 6%;
+  
+
+
+}
+.w3-main{
+	margin-left:200px
+
+}
+
+element.style {
+}
+.w3-teal, .w3-hover-teal:hover {
+    color:black!important;
+    background-color:transparent!important;
+}
+@media only screen and (max-width: 750px) {
+   
+    .head{
+        margin-top: 10%;
+    }
+    .heading p {
+        margin-top: 8%;
+    }
+    .profilename p{
+        margin-top: 8%;
+
+    }
+    .profilename img{
+        margin-top: 4%;
+
+    }
+
+}
+@media only screen and (max-width: 1000px){
+	#mySidebar{
+		margin-left: 1%;
+	}
+
+}
+
+element.style {
+}
+.w3-button:hover {
+    color: #000!important;
+    background-color:white!important;
+}
+

@@ -1,0 +1,93 @@
+.body1 {
+    background-image: url('../../public/wave\ \(1\).svg');
+
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    background-color: var(--grey);
+
+
+}
+
+.list1 {
+    width: 36%;
+    height: 530px;
+   
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 6%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 10px,
+    rgba(0, 0, 0, 0.15) 0px 3px 3px;
+    background-color: white;
+ 
+
+
+
+}
+
+
+.head1 {
+    height: 75px;
+    background-color:whitesmoke;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+   
+
+}
+
+.head1 span {
+    font-size: 23px;
+    /* font-weight: bold; */
+}
+
+.names1 {
+    height: 450px;
+    overflow-y: auto;
+    /* overflow-x: hidden; */
+    width: 95%;
+ 
+}
+.names1::-webkit-scrollbar {
+    display: none;
+}
+
+ .dif {
+    width: 85%;
+    border: 0.5px solid rgba(128, 128, 128, 0.333);
+    margin: auto;
+
+}
+
+.namestyle {
+    display: inline-flex;
+    width: 100%;
+    margin-left: 6%;
+    margin-top:2%;
+    font-size: 15px;
+
+
+}
+
+.img1 {
+
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 800px){
+    .list1{
+        width: 80%;
+    }
+
+}
